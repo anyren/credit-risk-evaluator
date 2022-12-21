@@ -6,4 +6,6 @@ In this assignment, we were tasked with building a machine learning model to pre
 Before running the analysis, I predicted the logistic regression would score better. I based this on the fact that we are looking for a binary outcome (approved or not-approved) and that is what this algorithm was created to do.
 
 ## Outcome
+![logistic regression scores](logistic_regression.png)
+![random forest scores](random_forest.png)
 Both models scored very high accuracy on the test data, though the logistical regression edged out the random forest classifier by a fraction of a percent (99.4% versus 99.2% respectively). The largest difference was in time to run; the random forest classifier took significantly longer. This would present more of a challenge for large datasets.
